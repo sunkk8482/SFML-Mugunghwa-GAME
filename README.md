@@ -15,8 +15,8 @@ SFML-Mugunghwa-GAME는 C++로 개발된 게임 프로젝트입니다. 이 게임
 - 술래가 노래를 부르는 속도는 랜덤입니다.
 
 # 파일 설명
-**main.cpp** : 게임 루프를 초기화 하고 실행
-**Game.cpp 및 Game.h** : 게임의 주요 로직과 상태 관리
-**Player.cpp 및 Player.h** : 플레이어 관리
-**NPC.cpp 및 NPC.h** : NPC 관리
-**HER.cpp 및 HER.h** : 술래 관리
+- **main.cpp** : 각 객체들을 불러와서 게임 초기화 및 실행
+- **Player.cpp 및 Player.h** : 플레이어 객체 정의 및 관리
+- **NPC.cpp 및 NPC.h** : NPC 객체 정의
+- **NPCS.cpp 및 NPCS.h** : NPC 객체들 관리
+- **HER.cpp 및 HER.h** : 술래 객체 정의 및 관리
